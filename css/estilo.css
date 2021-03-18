@@ -1,0 +1,597 @@
+* {
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #EEEEEE;
+    font-family: 'Inter', sans-serif;
+}
+
+nav {
+    height: 10vh;
+    background: #EEEEEE;
+    color: #fff;
+}
+
+nav a {
+    font-size: 18px;
+    color: #2D3136;
+    letter-spacing: 2px;
+    margin-left: 30px;
+}
+
+
+#principal {
+    background: linear-gradient(#142045, #395FC4);
+    flex: 1;
+    align-items: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+
+
+#principal .titulo {
+    margin-top: 30%;
+}
+
+#principal .titulo h1 {
+    font-size: 50px;
+    color: #fff;
+    font-weight: 300;
+}
+
+#principal .paragrafo p{
+    font-size: 25px;
+    font-weight: 200;
+}
+
+#principal .imagem img {
+    width: 90%;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+#principal .botao a {
+    margin-left: 20px;
+    width: 180px;
+    height: 45px;
+}
+
+#apresentacao {
+    background: url('../img/celular2.png') no-repeat;
+    background-position-x: 103%;
+    background-size: 10%;
+}
+
+#apresentacao .titulo h4{
+    font-weight: 300;
+}
+
+#apresentacao .titulo2 h2 {
+    font-weight: 500;
+}
+
+#apresentacao .paragrafo p {
+    font-size: 25px;
+    font-weight: 300;
+    text-align: left;
+}
+
+#apresentacao .imagem {
+    margin-top: 20%;
+    width: 100%;
+    margin-left: -30%;
+}
+
+#apresentacao .botao {
+    width: 40%;
+    border-bottom: 1px solid black;
+}
+
+#apresentacao .botao a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+#apresentacao .botao img {
+    margin-left: 80px;
+}
+
+#vantagem {
+    background: url('../img/flash.png') no-repeat;
+    background-position-x: 10%;
+}
+
+#vantagem .titulo h4 {
+    font-weight: 300;
+}
+
+#vantagem .titulo2 h2 {
+    font-weight: 500;
+}
+
+#vantagem .paragrafo p {
+    font-size: 25px;
+    font-weight: 300;
+    text-align: left;
+}
+
+#vantagem .botao {
+    border-bottom: 1px solid black;
+    width: 40%;
+}
+
+#vantagem .botao img {
+    margin-left: 80px;
+}
+
+#vantagem .botao a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+#vantagem .imagem {
+    margin-top: -20%;
+}
+
+
+#momentos {
+    background: url('../img/textura.png') no-repeat;
+}
+
+#momentos .borda {
+    border-bottom: 1px solid black;
+    margin-top: 40px;
+}
+
+#momentos .titulo1 h1 {
+    margin-top: 10%;
+    font-size: 60px;
+    font-weight: 300;
+}
+
+#momentos .botao1 {
+    background: #3BAE03;
+    width: 50%;
+    height: 60px;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    margin-left: 20%;
+    margin-top: 20%;
+
+}
+
+#momentos .botao1 a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+
+}
+
+#momentos .botao1 img {
+    width: 30px;
+    
+}
+
+#momentos .titulo2 h4 {
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+#momentos .subtitulo1 h2 {
+    font-size: 40px;
+    font-weight: 400;
+}
+
+#momentos .paragrafo1 p {
+    font-size: 25px;
+    font-weight: 300;
+    text-align: left;
+    margin-top: 30px;
+}
+
+#momentos .botao2 {
+    border-bottom: 2px solid black;
+    width: 40%;
+}
+
+#momentos .botao2 a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+#momentos .botao2 img {
+    margin-left: 80px;
+}
+
+#momentos .titulo3 h4 {
+    font-weight: 300;
+}
+
+#momentos .subtitulo2 h2 {
+    font-size: 40px;
+    font-weight: 400;
+}
+
+
+#momentos .paragrafo2 p {
+    font-size: 25px;
+    font-weight: 300;
+    text-align: left;
+    margin-top: 30px;
+}
+
+#momentos .botao3 {
+    border-bottom: 2px solid black;
+    width: 40%;
+}
+
+#momentos .botao3 a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+#momentos .botao3 img {
+    margin-left: 80px;
+}
+
+#conteudo {
+    background: #273F83;
+}
+
+.controle {
+    background: url('../img/setas1.png') no-repeat;
+    background-position-y: 0%;
+    background-size: 15%;
+    background-position-x: 15%;
+}
+
+#conteudo .controle .imagem {
+    margin-top: -50%;
+}
+
+#conteudo .controle .paragrafo p {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 300;
+    margin-left: 20%;
+    max-width: 400px;
+    margin-top: 70px;
+}
+
+#conteudo .controle .botao a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+
+#conteudo .controle .botao {
+    background: transparent;
+    border: 1px solid #fff;
+    width: 50%;
+    height: 60px;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    margin-left: 20%;
+    margin-top: 5%;
+}
+
+#conteudo .controle .botao img {
+    width: 30px;
+    
+}
+
+#faq {
+    background: #FFFFFF;
+}
+
+
+#faq .titulo h1 {
+    font-weight: 300;
+}
+
+#faq .imagem img{
+    margin-left: 20%;
+    margin-top: 10%;
+    width: 100%;
+}
+
+#conta {
+    background: #FFFFFF;
+}
+
+#conta .paragrafo p {
+    font-size: 45px;
+    font-weight: 300;
+}
+
+#conta .botao {
+    border: 1px solid black;
+    width: 40%;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 20px;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+
+#conta .botao a{
+    text-decoration: none;
+    color: black;
+}
+
+#footer {
+    background: #375BBD;
+    color: #fff;
+}
+
+#footer .copyright p {
+    font-weight: 200;
+}
+
+#footer a {
+    text-decoration: none;
+    padding-left: 20px;
+    color: #fff;
+    font-weight: 200;
+}
+
+#footer .logo img {
+    margin-left: 40%;
+}
+
+@media screen and (max-width: 425px) {
+    nav img {
+        width: 70%;
+    }
+    #principal .titulo h1 {
+        font-size: 40px;
+        text-align: left;
+    }
+
+    #principal .paragrafo p {
+        font-size: 20px;
+    }
+
+    #principal .botao {
+        margin-left: 10%;
+    }
+
+    #principal  a {
+        margin-top: 15px;
+    }
+
+    #principal .imagem img {
+        width: 90%;
+    }
+
+    #apresentacao {
+        background-size: 40%;
+        background-position-y: 8%;
+    }
+
+    #apresentacao .imagem img {
+        width: 100%;
+        margin-left: 10%;
+    }
+
+    #apresentacao .titulo {
+        line-height: 5px;
+    }
+
+    #apresentacao .paragrafo p {
+        font-size: 20px;
+    }
+
+    #apresentacao .botao {
+        margin-left: 10%;
+        width: 70%;
+    }
+
+    #apresentacao .botao img {
+        margin-left: 10%;
+    }
+
+    #vantagem {
+        background-position-y: 80%;
+        background-size: 30%;
+    }
+
+    #vantagem .paragrafo p {
+        font-size: 20px;
+    }
+
+    #vantagem .botao {
+        margin-left: 10%;
+        width: 70%;
+    }
+    
+    #vantagem .botao img {
+        margin-left: 10%;
+    }
+
+    #vantagem .imagem {
+        margin-top: 50px;
+        width: 100%;
+    }
+
+    #momentos .titulo1 h1 {
+        font-size: 30px;
+        text-align: center;
+        margin-left: -20px;
+    }
+
+    #momentos .borda {
+        margin-left: -20px;
+    }
+
+    #momentos .botao1 {
+        width: 70%;
+        margin-left: 50px;
+    }
+
+    #momentos .subtitulo1 h2 {
+        font-size: 30px;
+    }
+
+    #momentos .paragrafo1 p {
+        font-size: 20px;
+    }
+
+    #momentos .botao2 {
+        width: 70%;
+        margin-left: 30px;
+        margin-bottom: 20%;
+    }
+
+    #momentos .botao2 img {
+        margin-left: 10%;
+    }
+
+    #momentos .subtitulo2 h2 {
+        font-size: 30px;
+    }
+
+    #momentos .paragrafo2 p {
+        font-size: 20px;
+    }
+
+    #momentos .botao3 {
+        width: 70%;
+        margin-left: 30px;
+        margin-top: 30px;
+    }
+
+    #conteudo .controle {
+        background: none;
+    }
+
+    #conteudo .controle .imagem {
+        margin-left: -20%;
+        margin-top: -92%;
+        width: 100%;
+    }
+
+    #conteudo .controle .paragrafo p {
+        margin-left: 10px;
+        margin-bottom: 30px;
+    }
+
+    #conteudo .controle .botao {
+        width: 70%;
+        margin-bottom: 20px;
+        margin-left: 10%;
+    }
+
+    #faq .imagem img{
+        width: 0%;
+        margin-left: -20%;
+    }
+
+    #conta .botao {
+        width: 70%;
+    }
+
+    #footer {
+        flex: 1;
+        text-align: center;
+    }
+
+    #footer .logo img {
+        margin-top: 20px;
+        margin-left: 30px;
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+   
+    #momentos .titulo3 {
+        margin-top: 20%;
+    }
+
+    #momentos .botao3 {
+        margin-block-end: 10%;
+    }
+
+    #conteudo .controle {
+        background: none;
+    }
+
+    #conteudo .controle .botao {
+        margin-bottom: 30px;
+    }
+
+    #conteudo .controle .imagem img {
+        margin-left: -10%;
+        margin-top: -23.4%;
+        width: 80%;
+    }
+   
+    #faq .imagem {
+        width: 80%;
+    }
+
+    #conta .botao {
+        margin-left: 30%;
+    }
+
+    #footer {
+        text-align: center;
+    }
+
+    #footer .logo img {
+        margin-top: 5%;
+        margin-left: 8%;
+        margin-bottom: 5%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    #faq .imagem {
+        width: 80%;
+    }
+
+    #apresentacao .botao img {
+        margin-left: 10%;
+    }
+
+    #vantagem .botao img {
+        margin-left: 10%;
+    }
+
+    #momentos .titulo3 {
+        margin-top: -10px;
+    }
+
+    #momentos .botao img {
+        margin-left: 10%;
+    }
+
+    #momentos .botao2 img {
+        margin-left: 10%;
+    }
+
+    #momentos .botao3 img {
+        margin-left: 10%;
+    }
+
+    #conteudo .controle .imagem {
+        margin-top: 5%;
+    }
+}
+

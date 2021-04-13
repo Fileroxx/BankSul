@@ -1,0 +1,287 @@
+#principal {
+    background: #17133E;
+}
+
+#principal nav {
+    align-items: center;
+    display: flex;
+}
+
+#principal nav a {
+    margin-left: 20px;
+    margin-top: 40px;
+    font-size: 18px;
+    font-weight: 200;
+    letter-spacing: 2px;
+    margin-bottom: 50px;
+}
+
+
+#principal nav a:hover {
+    transform: scale(1.1);
+    transition: all ease .3s;
+}
+
+#principal nav .login {
+    background: #42F265;
+    border-radius: 20px;
+    width: 100px;
+    padding-left: 23px;
+    font-weight: 400;
+}
+
+#principal nav .login:hover {
+    opacity: .3;
+}
+
+#banco {
+    background: url('../img/conversa.png') no-repeat;
+    background-size: cover;
+    color: #17133E;
+}
+
+#banco .borda {
+    border-bottom: 10px solid#47F4FD;
+    width: 20%;
+    border-radius: 20px;
+    margin-top: 10%;
+}
+
+#banco .titulo h1 {
+    font-size: 60px;
+    max-width: 800px;
+    font-weight: 300;
+    color: #17133E;
+}
+
+#banco .paragrafo p {
+    max-width: 600px;
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: 300;
+}
+
+#banco .botao .b1 {
+    background: linear-gradient(to left,#0AE235, #6EFF8B); 
+    color: #fff;
+    font-weight: 500;
+    width: 20%;
+    height: 50px;
+    font-size: 18px;
+    border-radius: 40px;
+    margin-top: 20px;
+    transform: none;
+}
+
+#banco .botao .b1:hover {
+    opacity: .6;
+    transition: all ease .3s;
+}
+
+#banco .botao .b2 {
+    background: rgba(255,255,255,.6); 
+    margin-top: 18px;
+    margin-left: 30px;
+    color: #17133E;
+    font-weight: 500;
+    width: 20%;
+    height: 50px;
+    font-size: 18px;
+    border-radius: 40px;
+ 
+    transform: none;
+}
+
+#apresentacao {
+    color: #17133E;
+}
+
+#apresentacao .card1 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 40px;
+    width: 300px;
+    height: 440.99px;
+}
+
+#apresentacao .borda1 {
+    border-bottom: 10px solid #47F4FD;
+    width: 30%;
+    margin-left: 8%;
+    border-radius: 20px;
+}
+
+#apresentacao .card1 .titulo1 p {
+    font-weight: 700;
+    margin-left: 8%;
+}
+
+#apresentacao .card1 .paragrafo1 p {
+    max-width: 230px;
+    text-align: left;
+    margin-left: 8%;
+}
+
+#apresentacao .card2 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 40px;
+    width: 300px;
+    height: 440.99px;
+}
+
+#apresentacao .icone2 img {
+    margin-top: 30px;
+}
+
+#apresentacao .borda2 {
+    border-bottom: 10px solid #47F4FD;
+    width: 30%;
+    margin-left: 8%;
+    border-radius: 20px;
+}
+
+#apresentacao .card2 .titulo2 p {
+    font-weight: 700;
+    margin-left: 8%;
+}
+
+#apresentacao .card2 .paragrafo2 p {
+    max-width: 230px;
+    text-align: left;
+    margin-left: 8%;
+}
+
+#apresentacao .card3 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 40px;
+    width: 300px;
+    height: 440.99px;
+}
+
+#apresentacao .icone3 img {
+    margin-top: 30px;
+}
+
+#apresentacao .borda3 {
+    border-bottom: 10px solid #47F4FD;
+    width: 30%;
+    margin-left: 8%;
+    border-radius: 20px;
+}
+
+#apresentacao .card3 .titulo3 p {
+    font-weight: 700;
+    margin-left: 8%;
+}
+
+#apresentacao .card3 .paragrafo3 p {
+    max-width: 230px;
+    text-align: left;
+    margin-left: 8%;
+}
+
+#footer {
+    background: #221551 ;
+    align-items: center;
+    color: #fff;
+}
+
+#footer p {
+    font-weight: 100;
+}
+
+#footer .logo img {
+    width: 20%;
+}
+
+#footer .links a {
+    text-decoration: none;
+    margin-left: 20px;
+    color: #fff;
+    font-weight: 200;
+}
+
+#footer .links a:hover {
+    opacity: .6;
+    transition: .3s;
+}
+
+#footer .icons {
+    margin-left: -50px;
+    margin-top: 20px;
+}
+
+#footer .icons a {
+    margin-left: 30px;
+    text-decoration: none;
+}
+
+#footer .icons a:hover {
+    opacity: .6;
+    transition: .3s;
+    transform: scale(1.2);
+}
+
+
+@media screen and (max-width: 425px) {
+    #principal .navbar-brand img {
+        width: 90%;
+        margin-top: 20px;
+    }
+
+    #principal .nav-link {
+    margin-top: 0;
+    }
+
+    #banco .titulo h1 {
+        font-size: 40px;
+        font-weight: 400;
+    }
+
+    #banco .botao .b1 {
+        width: 300px;
+    }
+   
+    #banco .botao .b2 {
+        width: 300px;
+        margin-left: -0px;
+    }
+
+    #apresentacao .card1 {
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+
+    #apresentacao .card2 {
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+
+    #apresentacao .card3 {
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+
+    #footer {
+        font-size: 10px;
+    }
+
+    #footer p {
+        font-size: 10px;
+        max-width: 600px;
+        display: none;
+    }
+
+    #footer .logo {
+       width: 200px;
+       margin-left: -50px;
+    }
+
+    #footer .links  {
+        margin-left: -40px;
+        display: flex;
+        flex-direction: row;
+        text-align: left;
+        display: none;
+    }
+
+}

@@ -1,0 +1,209 @@
+#principal {
+    background: #17133E;
+}
+
+#principal nav {
+    align-items: center;
+    display: flex;
+}
+
+#principal nav a {
+    margin-left: 20px;
+    margin-top: 40px;
+    font-size: 18px;
+    font-weight: 200;
+    letter-spacing: 2px;
+    margin-bottom: 50px;
+}
+
+
+#principal nav a:hover {
+    transform: scale(1.1);
+    transition: all ease .3s;
+}
+
+#principal nav .login {
+    background: #42F265;
+    border-radius: 20px;
+    width: 100px;
+    padding-left: 23px;
+    font-weight: 400;
+}
+
+#principal nav .login:hover {
+    opacity: .3;
+}
+
+#conta {
+    background: url('../img/working.png'), linear-gradient(to top, #4234CB, #0F0664),   no-repeat;
+    background-size: cover;
+}
+
+#conta .borda {
+    border-bottom: 10px solid#47F4FD;
+    width: 20%;
+    border-radius: 20px;
+    margin-top: 10%;
+}
+
+#conta .titulo h1 {
+    font-size: 70px;
+    max-width: 700px;
+    font-weight: 300;
+    color: #17133E;
+}
+
+#conta .paragrafo p {
+    color: #17133E;
+    font-size: 25px;
+    font-weight: 300;
+}
+
+#conta .botao .b1 {
+    background: linear-gradient(to left,#0AE235, #6EFF8B); 
+    color: #fff;
+    font-weight: 500;
+    width: 20%;
+    height: 50px;
+    font-size: 18px;
+    border-radius: 40px;
+    margin-top: 20px;
+    transform: none;
+}
+#conta .botao .b1:hover {
+    opacity: .6;
+    transition: all ease .3s;
+}
+
+#conta .botao .b2 {
+    background: rgba(255,255,255,.3); 
+    margin-top: 18px;
+    margin-left: 30px;
+    color: #fff;
+    font-weight: 500;
+    width: 20%;
+    height: 50px;
+    font-size: 18px;
+    border-radius: 40px;
+ 
+    transform: none;
+}
+
+#planos {
+    background: url('../img/smartphone.png') no-repeat #F6F6F6;
+    background-size: 10%;
+    background-position-x: 105%;
+}
+
+#planos .borda1 {
+    border-bottom: 10px solid#47F4FD;
+    width: 20%;
+    border-radius: 20px;
+    margin-top: 10%;
+}
+
+#planos .titulo1 h5 {
+    font-size: 25px;
+}
+
+#planos .paragrafo1 p {
+    max-width: 400px;
+}
+
+#planos .borda2 {
+    border-bottom: 10px solid#47F4FD;
+    width: 20%;
+    border-radius: 20px;
+    margin-top: 10%;
+}
+
+#planos .titulo2 h5 {
+    font-size: 25px;
+}
+
+#planos .paragrafo2 p {
+    max-width: 400px;
+}
+
+#footer {
+    background: #221551 ;
+    align-items: center;
+    color: #fff;
+}
+
+#footer p {
+    font-weight: 100;
+}
+
+#footer .logo img {
+    width: 20%;
+}
+
+#footer .links a {
+    text-decoration: none;
+    margin-left: 20px;
+    color: #fff;
+    font-weight: 200;
+}
+
+#footer .links a:hover {
+    opacity: .6;
+    transition: .3s;
+}
+
+#footer .icons {
+    margin-left: -50px;
+    margin-top: 20px;
+}
+
+#footer .icons a {
+    margin-left: 30px;
+    text-decoration: none;
+}
+
+#footer .icons a:hover {
+    opacity: .6;
+    transition: .3s;
+    transform: scale(1.2);
+}
+
+@media screen and (max-width: 425px) {
+    #conta .titulo h1 {
+        font-size: 40px;
+        font-weight: 400;
+    }
+
+    #conta .botao .b1 {
+        width: 300px;
+    }
+   
+    #conta .botao .b2 {
+        width: 300px;
+        margin-left: -0px;
+    }
+
+    #footer {
+        font-size: 10px;
+    }
+
+    #footer p {
+        font-size: 10px;
+        max-width: 600px;
+        display: none;
+    }
+
+    #footer .logo {
+       width: 200px;
+       margin-left: -50px;
+    }
+
+    #footer .links  {
+        margin-left: -40px;
+        display: flex;
+        flex-direction: row;
+        text-align: left;
+        display: none;
+    }
+
+
+}

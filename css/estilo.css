@@ -5,593 +5,598 @@
 }
 
 body {
-    background: #EEEEEE;
+    background: #fff;
     font-family: 'Inter', sans-serif;
-}
-
-nav {
-    height: 10vh;
-    background: #EEEEEE;
     color: #fff;
 }
-
-nav a {
-    font-size: 18px;
-    color: #2D3136;
-    letter-spacing: 2px;
-    margin-left: 30px;
-}
-
-
 #principal {
-    background: linear-gradient(#142045, #395FC4);
-    flex: 1;
-    align-items: center;
-    background-size: cover;
-    background-attachment: fixed;
-    color: #fff;
+    background: #17133E;
+}
+#principal nav .navbar-brand{
+    margin-top: -15%;
+    margin-left: -17%;
 }
 
+#principal nav a {
+    margin-left: 20px;
+    font-size: 18px;
+    font-weight: 200;
+    letter-spacing: 2px;
+}
 
+#principal nav a:hover {
+    transform: scale(1.1);
+    transition: all ease .3s;
+}
 
-#principal .titulo {
-    margin-top: 30%;
+#principal nav .login {
+    background: #42F265;
+    border-radius: 20px;
+    width: 100px;
+    padding-left: 23px;
+    font-weight: 400;
+}
+
+#principal nav .login:hover {
+    opacity: .5;
 }
 
 #principal .titulo h1 {
     font-size: 50px;
-    color: #fff;
     font-weight: 300;
 }
 
-#principal .paragrafo p{
+#principal .paragrafo p {
     font-size: 25px;
     font-weight: 200;
 }
 
-#principal .imagem img {
-    width: 90%;
-    margin-left: 10%;
-    margin-top: 10%;
+#principal .botao {
+margin-left: -20px;
 }
 
-#principal .botao a {
-    margin-left: 20px;
-    width: 180px;
-    height: 45px;
+#principal .botao .b1:hover {
+    opacity: .6;
+    transition: .3s;
 }
 
-#apresentacao {
-    background: url('../img/celular2.png') no-repeat;
-    background-position-x: 103%;
+#principal .botao .b1 {
+background: linear-gradient(to left,#0DE338, #6EFF8B);
+text-decoration: none;
+border-radius: 20px;
+color: #fff;
+width: 35%;
+height: 40px;
+}
+
+#principal .botao .b2 {
+text-decoration: none;
+color: #fff;
+background: rgba(255,255,255,.1);
+border-radius: 20px;
+width: 35%;
+height: 40px;
+}
+
+#principal .botao .b2:hover{
+    opacity: .6;
+    transition: .3s;
+}
+
+#principal .imagem {
+    margin-top: -10%;
+}
+
+
+#servicos {
+  color: #17133E;
+}
+
+#servicos .borda1 {
+    border-top: 10px solid #47F4FD;
+    width: 20%;
+    border-radius: 20px;
+}
+
+#servicos .titulo h3 {
+    font-size: 35px;
+    max-width: 550px;
+    font-weight: 400;
+}
+
+#servicos .logo {
+    
+}
+
+#servicos .borda2 {
+  border-bottom: 10px solid #47F4FD;
+  width: 30%;
+  margin-top: 10px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+
+
+#pagamentos {
+    color: #17133E;
+    background: url('../img/raio.svg') no-repeat;
     background-size: 10%;
+    background-position-x: -3%;
+    background-position-y: 40%;
 }
 
-#apresentacao .titulo h4{
-    font-weight: 300;
-}
-
-#apresentacao .titulo2 h2 {
-    font-weight: 500;
-}
-
-#apresentacao .paragrafo p {
-    font-size: 25px;
-    font-weight: 300;
-    text-align: left;
-}
-
-#apresentacao .imagem {
-    margin-top: 20%;
-    width: 100%;
-    margin-left: -30%;
-}
-
-#apresentacao .botao {
-    width: 40%;
-    border-bottom: 1px solid black;
-}
-
-#apresentacao .botao a {
-    text-decoration: none;
-    color: black;
-    font-size: 20px;
-}
-
-#apresentacao .botao img {
-    margin-left: 80px;
-}
-
-#vantagem {
-    background: url('../img/flash.png') no-repeat;
-    background-position-x: 10%;
-}
-
-#vantagem .titulo h4 {
-    font-weight: 300;
-}
-
-#vantagem .titulo2 h2 {
-    font-weight: 500;
-}
-
-#vantagem .paragrafo p {
-    font-size: 25px;
-    font-weight: 300;
-    text-align: left;
-}
-
-#vantagem .botao {
-    border-bottom: 1px solid black;
-    width: 40%;
-}
-
-#vantagem .botao img {
-    margin-left: 80px;
-}
-
-#vantagem .botao a {
-    text-decoration: none;
-    color: black;
-    font-size: 20px;
-}
-
-#vantagem .imagem {
-    margin-top: -20%;
-}
-
-
-#momentos {
-    background: url('../img/textura.png') no-repeat;
-}
-
-#momentos .borda {
-    border-bottom: 1px solid black;
-    margin-top: 40px;
-}
-
-#momentos .titulo1 h1 {
-    margin-top: 10%;
-    font-size: 60px;
-    font-weight: 300;
-}
-
-#momentos .botao1 {
-    background: #3BAE03;
-    width: 50%;
-    height: 60px;
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+#pagamentos .borda1 {
+    border-top: 10px solid #47f4fd;
+    width: 20%;
     border-radius: 20px;
-    margin-left: 20%;
-    margin-top: 20%;
-
 }
 
-#momentos .botao1 a {
-    text-decoration: none;
-    color: #fff;
-    font-size: 20px;
-
-}
-
-#momentos .botao1 img {
-    width: 30px;
-    
-}
-
-#momentos .titulo2 h4 {
-    font-weight: 300;
-    letter-spacing: 1px;
-}
-
-#momentos .subtitulo1 h2 {
-    font-size: 40px;
+#pagamentos .titulo h3 {
+    font-size: 35px;
+    max-width: 550px;
     font-weight: 400;
 }
 
-#momentos .paragrafo1 p {
-    font-size: 25px;
-    font-weight: 300;
-    text-align: left;
-    margin-top: 30px;
+#pagamentos .tab {
+    outline: none;
+    transition: .3s;
+    margin-left: -10px;
 }
 
-#momentos .botao2 {
-    border-bottom: 2px solid black;
-    width: 40%;
-}
-
-#momentos .botao2 a {
-    text-decoration: none;
-    color: black;
-    font-size: 20px;
-}
-
-#momentos .botao2 img {
-    margin-left: 80px;
-}
-
-#momentos .titulo3 h4 {
-    font-weight: 300;
-}
-
-#momentos .subtitulo2 h2 {
-    font-size: 40px;
-    font-weight: 400;
-}
-
-
-#momentos .paragrafo2 p {
-    font-size: 25px;
-    font-weight: 300;
-    text-align: left;
-    margin-top: 30px;
-}
-
-#momentos .botao3 {
-    border-bottom: 2px solid black;
-    width: 40%;
-}
-
-#momentos .botao3 a {
-    text-decoration: none;
-    color: black;
-    font-size: 20px;
-}
-
-#momentos .botao3 img {
-    margin-left: 80px;
-}
-
-#conteudo {
-    background: #273F83;
-}
-
-.controle {
-    background: url('../img/setas1.png') no-repeat;
-    background-position-y: 0%;
-    background-size: 15%;
-    background-position-x: 15%;
-}
-
-#conteudo .controle .imagem {
-    margin-top: -50%;
-}
-
-#conteudo .controle .paragrafo p {
-    color: #fff;
-    font-size: 30px;
-    font-weight: 300;
-    margin-left: 20%;
-    max-width: 400px;
-    margin-top: 70px;
-}
-
-#conteudo .controle .botao a {
-    text-decoration: none;
-    color: #fff;
-    font-size: 20px;
-}
-
-#conteudo .controle .botao {
+#pagamentos .tab button {
+    margin-left: 20px;
     background: transparent;
-    border: 1px solid #fff;
-    width: 50%;
-    height: 60px;
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    border: 1px solid rgba(0,0,0,.2);
+    width: 15%;
+    height: 40px;
     border-radius: 20px;
-    margin-left: 20%;
-    margin-top: 5%;
+    overflow: hidden;
+    transition: .5s;
 }
 
-#conteudo .controle .botao img {
-    width: 30px;
-    
+#pagamentos button:hover {
+    background: #47F4FD;
+    transform: scale(1.1);
 }
 
-#faq {
-    background: #FFFFFF;
+#pagamentos button.active {
+    background: #47F4FD;
+}
+
+#pagamentos .tabcontent {
+    display: none;
+    margin-top: 100px;
+}
+
+#pagamentos .tabcontent .paragrafo1 p {
+    font-size: 20px;
+    max-width: 420px;
+    color: #656565;
+}
+
+#pagamentos .tabcontent .botao1 button {
+    background: linear-gradient(to left,#0AE235, #6EFF8B);
+    color: #fff;
+    font-weight: 500;
+    width: 50%;
+    height: 50px;
+    font-size: 18px;
+    border-radius: 40px;
+    margin-top: 30px;
+    transform: none;
 }
 
 
-#faq .titulo h1 {
-    font-weight: 300;
+#pagamentos .tabcontent .botao1 button:hover {
+    opacity: .6;
+    transition: .3s;
 }
 
-#faq .imagem img{
-    margin-left: 20%;
-    margin-top: 10%;
-    width: 100%;
-}
 
 #conta {
-    background: #FFFFFF;
+    color: #221551;
+    background: url('../img/celular2.png') no-repeat, #F3F6FD;
+    background-position-x: 105%;
+    background-position-y: 60% ;
+}
+
+#conta .titulo h3 {
+    margin-top: 15%;
+    font-size: 35px;
+    max-width: 450px;
+    font-weight: 400;
+}
+
+#conta .borda {
+    border-bottom: 10px solid#47F4FD;
+    width: 40%;
+    border-radius: 20px;
 }
 
 #conta .paragrafo p {
-    font-size: 45px;
-    font-weight: 300;
+    max-width: 450px;
+    font-size: 18px;
+    color: #656565;
 }
 
-#conta .botao {
-    border: 1px solid black;
+#conta .imagem {
+    width: 70%;
+    margin-top: 10%;
+}
+
+#conta .botao button {
+    background: linear-gradient(to left,#0AE235, #6EFF8B);
+    color: #fff;
+    font-weight: 500;
+    width: 50%;
+    height: 50px;
+    font-size: 18px;
+    border-radius: 40px;
+    margin-top: 20px;
+    transform: none;
+}
+
+#conta .botao button:hover {
+    opacity: .6;
+    transition: .3s;
+}
+
+#simplificar {
+    color: #221551;
+    background: url('../img/raio.svg') no-repeat;
+    background-position-x: 95%;
+    background-size: 8%;
+    background-position-y: 100%;
+}
+
+#simplificar .titulo h3 {
+    margin-top: 15%;
+    font-size: 35px;
+    max-width: 400px;
+    font-weight: 400;
+}
+
+#simplificar .borda {
+    border-bottom: 10px solid#47F4FD;
     width: 40%;
-    text-align: center;
-    padding-top: 10px;
     border-radius: 20px;
-    margin-top: 5%;
-    margin-left: 10%;
 }
 
-#conta .botao a{
-    text-decoration: none;
-    color: black;
+#simplificar .paragrafo p {
+    max-width: 450px ;
+    font-size: 18px;
+    color: #656565;
+}
+
+#simplificar .botao button {
+    background: linear-gradient(to right,#FF8700, #FFBB6E);
+    color: #fff;
+    font-weight: 500;
+    width: 50%;
+    height: 50px;
+    font-size: 18px;
+    border-radius: 40px;
+    margin-top: 20px;
+    transform: none;
+}
+
+#simplificar .botao button:hover {
+    opacity: .6;
+    transition: .3s;
+}
+
+#simplificar .imagem {
+    width: 90%;
+    margin-top: 10%;
+}
+
+#debito {
+    color: #221551;
+    background: url('../img/raio.svg') no-repeat;
+    background-size: 10%;
+    background-position-x: 20%;
+    background-position-y: 70%;
+}
+
+#debito .titulo h3 {
+    margin-top: 15%;
+    font-size: 35px;
+    max-width: 400px;
+    font-weight: 400;
+}
+
+#debito .borda {
+    border-bottom: 10px solid#47F4FD;
+    width: 40%;
+    border-radius: 20px;
+}
+
+#debito .paragrafo p {
+    max-width: 450px ;
+    font-size: 18px;
+    color: #656565;
+}
+
+#debito .botao button {
+    background: linear-gradient(to right,#FF8700, #FFBB6E);
+    color: #fff;
+    font-weight: 500;
+    width: 50%;
+    height: 50px;
+    font-size: 18px;
+    border-radius: 40px;
+    margin-top: 20px;
+    transform: none;
+}
+
+#debito .botao button:hover {
+    opacity: .6;
+    transition: .3s;
+}
+
+#debito .imagem {
+    margin-top: 30%;
+}
+
+#parceiro {
+    color: #221551;
+    background: url('../img/celular2.png') no-repeat;
+    background-position-x: -5%;
+    background-size: 11%;
+    background-position-y: 100%;
+}
+
+#parceiro .titulo1 h3 {
+    margin-top: 15%;
+    font-size: 35px;
+    max-width: 350px;
+    font-weight: 400;
+}
+
+#parceiro .borda1 {
+    border-bottom: 10px solid#47F4FD;
+    width: 35%;
+    border-radius: 20px;
+}
+
+#parceiro .paragrafo p {
+    max-width: 400px;
+    color: #656565;
+}
+
+#parceiro .borda2 {
+    border-right: 2px solid rgba(0,0,0,0.1);
+    height: 30vh;
+    margin-top: -55%;
+}
+
+#parceiro .titulo2 {
+    margin-top: 15%;
+    font-size: 35px;
+    max-width: 350px;
+    font-weight: 400;
+}
+
+#parceiro .borda3 {
+    border-bottom: 10px solid#47F4FD;
+    width: 35%;
+    border-radius: 20px;
+}
+
+#parceiro form {
+    display: flex;
+    flex-direction: column;
+}
+
+#parceiro form input {
+    border: 1px solid black;
+    width: 60%;
+    height: 50px;
+    border-radius: 40px;
+}
+
+#parceiro button {
+    background: #0AE235;
+   
+    color: #fff;
+    font-weight: 500;
+    width: 60%;
+    height: 50px;
+    font-size: 18px;
+    border-radius: 40px;
+    margin-top: 20px;
+    transform: none;
+}
+
+#parceiro button:hover {
+    opacity: .6;
+    transition: .3s;
 }
 
 #footer {
-    background: #375BBD;
-    color: #fff;
+    background: #221551;
+    align-items: center;
 }
 
-#footer .copyright p {
-    font-weight: 200;
-}
-
-#footer a {
-    text-decoration: none;
-    padding-left: 20px;
-    color: #fff;
+#footer p {
     font-weight: 200;
 }
 
 #footer .logo img {
-    margin-left: 40%;
+    width: 20%;
+}
+
+#footer .links a {
+    text-decoration: none;
+    margin-left: 20px;
+    color: #fff;
+    font-weight: 200;
+}
+
+#footer .links a:hover {
+    opacity: .6;
+    transition: .3s;
+}
+
+#footer .icons {
+    margin-left: -50px;
+    margin-top: 20px;
+}
+
+#footer .icons a {
+    margin-left: 30px;
+    text-decoration: none;
+}
+
+#footer .icons a:hover {
+    opacity: .6;
+    transition: .3s;
+    transform: scale(1.2);
 }
 
 @media screen and (max-width: 425px) {
-    nav img {
-        width: 70%;
-    }
-    #principal .titulo h1 {
-        font-size: 40px;
-        text-align: left;
-    }
 
-    #principal .paragrafo p {
-        font-size: 20px;
-    }
+#principal {
+    text-align: le;
+}
 
-    #principal .botao {
-        margin-left: 10%;
+    #principal .navbar-brand img {
+        width: 80%;
+        margin-top: -0%;
+        margin-left: -25%;
     }
+    
 
-    #principal  a {
-        margin-top: 15px;
+    #principal .navbar-toggler {
+        margin-top: -60%;
     }
 
     #principal .imagem img {
-        width: 90%;
+        display: none;;
     }
 
-    #apresentacao {
-        background-size: 40%;
-        background-position-y: 8%;
-    }
-
-    #apresentacao .imagem img {
+    #principal .botao {
+        display: flex;
+        flex-direction: column;
         width: 100%;
-        margin-left: 10%;
     }
 
-    #apresentacao .titulo {
-        line-height: 5px;
+    #principal .botao a {
+       margin-top: 20px;
     }
 
-    #apresentacao .paragrafo p {
-        font-size: 20px;
-    }
-
-    #apresentacao .botao {
-        margin-left: 10%;
-        width: 70%;
-    }
-
-    #apresentacao .botao img {
-        margin-left: 10%;
-    }
-
-    #vantagem {
-        background-position-y: 80%;
-        background-size: 30%;
-    }
-
-    #vantagem .paragrafo p {
-        font-size: 20px;
-    }
-
-    #vantagem .botao {
-        margin-left: 10%;
-        width: 70%;
+    #principal .botao .b1 {
+        width: 300px;
     }
     
-    #vantagem .botao img {
-        margin-left: 10%;
+    #principal .botao .b2 {
+        width: 300px;
     }
 
-    #vantagem .imagem {
-        margin-top: 50px;
-        width: 100%;
-    }
-
-    #momentos .titulo1 h1 {
-        font-size: 30px;
+    #servicos .logo {
         text-align: center;
-        margin-left: -20px;
     }
 
-    #momentos .borda {
-        margin-left: -20px;
+    #servicos .borda2 {
+        margin: 0 auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
 
-    #momentos .botao1 {
-        width: 70%;
-        margin-left: 50px;
-    }
-
-    #momentos .subtitulo1 h2 {
-        font-size: 30px;
-    }
-
-    #momentos .paragrafo1 p {
-        font-size: 20px;
-    }
-
-    #momentos .botao2 {
-        width: 70%;
-        margin-left: 30px;
+    #servicos .paragrafo {
+        margin: 0 auto;
+        text-align: center;
         margin-bottom: 20%;
     }
 
-    #momentos .botao2 img {
-        margin-left: 10%;
+    #pagamentos .imagem1 img {
+        width: 100%;
     }
-
-    #momentos .subtitulo2 h2 {
-        font-size: 30px;
-    }
-
-    #momentos .paragrafo2 p {
-        font-size: 20px;
-    }
-
-    #momentos .botao3 {
-        width: 70%;
-        margin-left: 30px;
-        margin-top: 30px;
-    }
-
-    #conteudo .controle {
-        background: none;
-    }
-
-    #conteudo .controle .imagem {
-        margin-left: -20%;
-        margin-top: -92%;
+    
+    #debito .imagem img {
         width: 100%;
     }
 
-    #conteudo .controle .paragrafo p {
-        margin-left: 10px;
+    #pagamentos {
+        background-size: 40%;
+        background-position-y: 90%;
+        background-position-x: 95%;
+    }
+
+    #pagamentos .tab {
+        overflow: auto;
+        white-space: nowrap;
+        justify-content: center;
+    }
+
+    #pagamentos .tab button {
+        width: 150px;
+    }
+
+    #pagamentos .botao1 {
         margin-bottom: 30px;
     }
 
-    #conteudo .controle .botao {
-        width: 70%;
-        margin-bottom: 20px;
-        margin-left: 10%;
+    #pagamentos .botao1 button {
+        width: 400px;
+        line-height: 20px;
     }
 
-    #faq .imagem img{
-        width: 0%;
-        margin-left: -20%;
+    #conta {
+        background-size: 50%;
+        background-position-y: 10%;
     }
 
-    #conta .botao {
-        width: 70%;
+    #conta .botao button {
+        line-height: 20px;
     }
 
-    #footer {
-        flex: 1;
-        text-align: center;
+    #simplificar {
+        background-size: 50%;
+        background-position-y: 75%;
     }
 
-    #footer .logo img {
-        margin-top: 20px;
-        margin-left: 30px;
-        margin-bottom: 30px;
-    }
-}
-
-@media screen and (min-width: 768px) {
-   
-    #momentos .titulo3 {
-        margin-top: 20%;
+    #simplificar .botao button {
+        line-height: 20px;
     }
 
-    #momentos .botao3 {
-        margin-block-end: 10%;
+    #debito {
+        background-size: 50%;
+        background-position-y: 15%;
     }
 
-    #conteudo .controle {
+    #debito .botao button {
+        line-height: 20px;
+    }
+
+    #parceiro {
         background: none;
     }
 
-    #conteudo .controle .botao {
-        margin-bottom: 30px;
-    }
-
-    #conteudo .controle .imagem img {
-        margin-left: -10%;
-        margin-top: -23.4%;
-        width: 80%;
-    }
-   
-    #faq .imagem {
-        width: 80%;
-    }
-
-    #conta .botao {
-        margin-left: 30%;
+    #parceiro .borda2 {
+        display: none;
     }
 
     #footer {
-        text-align: center;
+        font-size: 10px;
     }
 
-    #footer .logo img {
-        margin-top: 5%;
-        margin-left: 8%;
-        margin-bottom: 5%;
-    }
-}
-
-@media screen and (min-width: 1200px) {
-    #faq .imagem {
-        width: 80%;
+    #footer p {
+        font-size: 10px;
+        max-width: 600px;
+        display: none;
     }
 
-    #apresentacao .botao img {
-        margin-left: 10%;
+    #footer .logo {
+       width: 200px;
+       margin-left: -50px;
     }
 
-    #vantagem .botao img {
-        margin-left: 10%;
-    }
-
-    #momentos .titulo3 {
-        margin-top: -10px;
-    }
-
-    #momentos .botao img {
-        margin-left: 10%;
-    }
-
-    #momentos .botao2 img {
-        margin-left: 10%;
-    }
-
-    #momentos .botao3 img {
-        margin-left: 10%;
-    }
-
-    #conteudo .controle .imagem {
-        margin-top: 5%;
+    #footer .links  {
+        margin-left: -40px;
+        display: flex;
+        flex-direction: row;
+        text-align: left;
+        display: none;
     }
 }
-
